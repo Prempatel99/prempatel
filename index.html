@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Hello, I'm <span>Prem Patel</span></h1>
+      <p>I'm a Computer Science student with experience in Web Development.
+        <br>
+        Check out my projects and skills.
+      </p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I am a third-year Computer Science student passionate about web development and software engineering. With a
+      strong foundation in HTML, CSS, JavaScript, and MySQL, I enjoy building creative and functional applications that
+      solve real-world problems.
+
+      I'm constantly learning and exploring new technologies to expand my skillset. My goal is to become a versatile
+      developer capable of handling complex projects from conception to deployment.
+    </p>
+
+  </section>
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="skill-cards">
+      <div class="skill-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"
+          class="skill-icon">
+        <h3>HTML</h3>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 90%;"></div>
+        </div>
+        <p>Semantic markup, forms, accessibility, and modern HTML5 features.</p>
+      </div>
+
+      <div class="skill-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"
+          class="skill-icon">
+        <h3>CSS</h3>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 85%;"></div>
+        </div>
+        <p>Responsive design, animations, Flexbox, Grid, and modern CSS variables.</p>
+      </div>
+
+      <div class="skill-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"
+          class="skill-icon">
+        <h3>Java</h3>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 80%;"></div>
+        </div>
+        <p>Object-oriented programming, algorithms, and backend development.</p>
+      </div>
+
+      <div class="skill-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"
+          class="skill-icon">
+        <h3>MySQL</h3>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 75%;"></div>
+        </div>
+        <p>Database design, CRUD operations, relational queries, and data management.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="projects" class="section">
+    <!-- <h2>My Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Full Stack Web Development</h3>
+        <p>Building seamless web solutions with strong frontend designs and powerful backend logic, tailored for
+          real-world needs.</p>
+      </div>
+      <div class="project-card">
+        <h3>Personal Projects & Prototypes</h3>
+        <p>Creating innovative personal projects and prototypes.Recently I created a website "Agriford" for renting
+          farming equipments to needy farmers.</p>
+      </div> -->
+    <section id="projects" class="projects">
+      <h2>My Projects</h2>
+      <div class="project-cards">
+
+        <div class="project-card">
+          <h3>Agriford Website</h3>
+          <p>A fully responsive e-commerce website with product filtering, cart functionality, and checkout process.</p>
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Weather App</h3>
+          <p>Real-time weather application that uses an API to display current weather conditions and a 5-day forecast.
+          </p>
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Task Manager</h3>
+          <p>A task management application with features for creating, editing, and categorizing tasks with local
+            storage.</p>
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" name="fullname" placeholder="Full Name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="text" name="mobile" placeholder="Mobile Number" required />
+        <input type="text" name="subject" placeholder="Email Subject" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+  </section>
+  <footer>
+    <p>&copy; 2025 Prem. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
